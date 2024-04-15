@@ -1,0 +1,23 @@
+:root {
+  --sidebar-width: 240px;
+  --header-height: 64px;
+}
+
+html {
+  font-size: 62.5%; /* 1rem = 10px; 10px / 16px = 62.5% */
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+#root {
+  height: 100vh;
+  overflow-y: hidden;
+}
