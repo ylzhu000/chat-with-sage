@@ -47,11 +47,11 @@ Ensure you have the following installed:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/ylzhu000/sage
+   git clone https://github.com/ylzhu000/chat-with-sage
    ```
 2. Navigate to the project directory:
    ```
-   cd sage
+   cd chat-with-sage
    ```
 3. Install dependencies:
 
