@@ -5,9 +5,9 @@ This project is a chatbot interface designed for Customer Support Agents. It uti
 ## Features
 
 - **Chat Interface**: Allows agents to enter customer queries and receive responses.
-- **Rich Text Editing**: Supports formatting options like bold, italic, underline, lists, and links.
-- **OpenAI API Integration**: Fetches and posts data to simulate chatbot interactions.
-- **Follow-up Questions**: Supports dynamic follow-up questions.
+- **Rich Text Editing**: Supports response formatting options like bold, italic, underline, lists, and links.
+- **OpenAI API Integration**: Utilizes OpenAI's LLM to generate responses based on customer queries, enhancing the chatbot's interactive capabilities.
+- **Follow-up Questions**: Facilitates dynamic follow-up questions through integration with LangChain, enabling more engaging and contextually relevant conversations.
 - **Response Streaming**: Implements real-time response streaming to display chatbot replies as they are being generated, enhancing the interactive experience.
 - **Automatic Scrolling**: Automatically scrolls the view to the latest message as new chat messages are added, ensuring the most recent interactions are always visible.
 - **Error Handling**: Validates user inputs and provides error messages to assist in troubleshooting.
@@ -17,7 +17,7 @@ This project is a chatbot interface designed for Customer Support Agents. It uti
 - **Interactive Design**: Includes quick reply buttons and dynamic content placeholders to enhance usability.
 - **Editable Templates**: Agents can use and modify predefined response templates to streamline communication.
 - **Chat History**: Ability to save and retrieve past conversations.
-- **LLM Model Configuration**: Settings for language model parameters to tailor response generation.
+- **LLM Model Configuration**: Settings for language model parameters to tailor response generation(model options are implemented for demonstration purposes).
 
 ## Challenges
 
